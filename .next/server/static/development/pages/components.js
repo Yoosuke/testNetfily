@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -133,7 +133,7 @@ module.exports = "/_next/static/images/bg3-e76de24b6d8ab5e920bb4d49241ad15f.jpg"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/avatar-f1d71f777331fd7e3de116edf4ee3b67.jpg";
+module.exports = "/_next/static/images/avatar-7dfeb2f58fe91e398409a1e66d8dd5bb.jpg";
 
 /***/ }),
 
@@ -4266,87 +4266,14 @@ function Footer(props) {
       lineNumber: 34
     },
     __self: this
-  }, __jsx("a", {
-    href: "https://www.creative-tim.com/?ref=njsmk-footer",
-    className: classes.block,
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Creative Tim")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["ListItem"], {
-    className: classes.inlineBlock,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://www.creative-tim.com/presentation?ref=njsmk-footer",
-    className: classes.block,
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "About us")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["ListItem"], {
-    className: classes.inlineBlock,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "http://blog.creative-tim.com/?ref=njsmk-footer",
-    className: classes.block,
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "Blog")), __jsx(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["ListItem"], {
-    className: classes.inlineBlock,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "https://www.creative-tim.com/license?ref=njsmk-footer",
-    className: classes.block,
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, "Licenses")))), __jsx("div", {
+  }))), __jsx("div", {
     className: classes.right,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 38
     },
     __self: this
-  }, "\xA9 ", 1900 + new Date().getYear(), " , made with", " ", __jsx(_material_ui_icons_Favorite__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    className: classes.icon,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }), " by", " ", __jsx("a", {
-    href: "https://www.creative-tim.com?ref=njsmk-footer",
-    className: aClasses,
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
-    },
-    __self: this
-  }, "Creative Tim"), " ", "for a better web.")));
+  }, "\xA9 ", 1900 + new Date().getYear(), " ,  lunaballet studio. All Rights Reserved.")));
 }
 Footer.propTypes = {
   whiteFont: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool
@@ -4799,14 +4726,14 @@ function HeaderLinks(props) {
   }, __jsx(components_CustomDropdown_CustomDropdown_js__WEBPACK_IMPORTED_MODULE_9__["default"], {
     noLiPadding: true,
     navDropdown: true,
-    buttonText: "Components",
+    buttonText: "\u30EB\u30CA\u30D0\u30EC\u30A8\u30B9\u30BF\u30B8\u30AA\u306B\u3064\u3044\u3066",
     buttonProps: {
       className: classes.navLink,
       color: "transparent"
     },
     buttonIcon: _material_ui_icons__WEBPACK_IMPORTED_MODULE_6__["Apps"],
     dropdownList: [__jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/components",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 39
@@ -4819,16 +4746,49 @@ function HeaderLinks(props) {
         lineNumber: 40
       },
       __self: this
-    }, "All components")), __jsx("a", {
-      href: "https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar",
-      target: "_blank",
-      className: classes.dropdownLink,
+    }, "\u30EB\u30CA\u30D0\u30EC\u30A8\u30B9\u30BF\u30B8\u30AA\u306B\u3064\u3044\u3066")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 42
       },
       __self: this
-    }, "Documentation")],
+    }, __jsx("a", {
+      className: classes.dropdownLink,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43
+      },
+      __self: this
+    }, "\u30D0\u30EC\u30A8\u6559\u5BA4\u306E\u30AF\u30E9\u30B9\u30FB\u30AB\u30EC\u30F3\u30C0\u30FC")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45
+      },
+      __self: this
+    }, __jsx("a", {
+      className: classes.dropdownLink,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, "\u30D0\u30EC\u30A8\u6559\u5BA4\u306E\u30EC\u30C3\u30B9\u30F3\u6599\u91D1")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, __jsx("a", {
+      className: classes.dropdownLink,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, "\u30D0\u30EC\u30A8\u6559\u5BA4\u3078\u306E\u30A2\u30AF\u30BB\u30B9\u30FB\u5730\u56F3"))],
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -4838,31 +4798,31 @@ function HeaderLinks(props) {
     className: classes.listItem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    href: "https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar",
+    href: "#",
     color: "transparent",
     target: "_blank",
     className: classes.navLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
-  }, __jsx(_material_ui_icons__WEBPACK_IMPORTED_MODULE_6__["CloudDownload"], {
+  }, __jsx(_material_ui_icons__WEBPACK_IMPORTED_MODULE_6__["LocalPhone"], {
     className: classes.icons,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
-  }), " Download")), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }), " \u304A\u554F\u3044\u5408\u308F\u305B")), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: classes.listItem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -4874,7 +4834,7 @@ function HeaderLinks(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 70
     },
     __self: this
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -4884,21 +4844,21 @@ function HeaderLinks(props) {
     className: classes.navLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, __jsx("i", {
     className: classes.socialIcons + " fab fa-twitter",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 82
     },
     __self: this
   })))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: classes.listItem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 86
     },
     __self: this
   }, __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -4910,7 +4870,7 @@ function HeaderLinks(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 87
     },
     __self: this
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -4920,21 +4880,21 @@ function HeaderLinks(props) {
     className: classes.navLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 93
     },
     __self: this
   }, __jsx("i", {
     className: classes.socialIcons + " fab fa-facebook",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 99
     },
     __self: this
   })))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: classes.listItem,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 103
     },
     __self: this
   }, __jsx(_material_ui_core_Tooltip__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -4946,7 +4906,7 @@ function HeaderLinks(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 104
     },
     __self: this
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -4956,14 +4916,14 @@ function HeaderLinks(props) {
     className: classes.navLink,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 110
     },
     __self: this
   }, __jsx("i", {
     className: classes.socialIcons + " fab fa-instagram",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 116
     },
     __self: this
   })))));
@@ -12256,7 +12216,7 @@ function Components(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!***********************************!*\
   !*** multi ./pages/components.js ***!
   \***********************************/

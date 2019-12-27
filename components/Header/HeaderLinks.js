@@ -9,7 +9,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, CloudDownload, LocalPhone } from "@material-ui/icons";
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
 
@@ -29,34 +29,36 @@ export default function HeaderLinks(props) {
         <CustomDropdown
           noLiPadding
           navDropdown
-          buttonText="Components"
+          buttonText="ルナバレエスタジオについて"
           buttonProps={{
             className: classes.navLink,
             color: "transparent"
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link href="/components">
-              <a className={classes.dropdownLink}>All components</a>
+            <Link href="/">
+              <a className={classes.dropdownLink}>ルナバレエスタジオについて</a>
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
+            <Link href="/">
+              <a className={classes.dropdownLink}>バレエ教室のクラス・カレンダー</a>
+            </Link>,
+            <Link href="/">
+              <a className={classes.dropdownLink}>バレエ教室のレッスン料金</a>
+            </Link>,
+            <Link href="/">
+              <a className={classes.dropdownLink}>バレエ教室へのアクセス・地図</a>
+            </Link>,
+    ]}
         />
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/nextjs-material-kit?ref=njsmk-navbar"
+          href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+          <LocalPhone className={classes.icons} /> お問い合わせ
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>

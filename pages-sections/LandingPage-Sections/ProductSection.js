@@ -21,47 +21,25 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>お知らせ情報</h2>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <h4 className={classes.description}>
+          11月 4日(月)：秋の入会キャンペーン実施中
+          </h4>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+          只今、秋の入会キャンペーン実施中です。バレエを通して心も豊かなになりませんか？体験レッスンが無料で受けられます。
+          </h5>
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8}>
+          <h4 className={classes.description}>
+          7月 2日(火)：やさしいバレエクラスの休講のお知らせ
+          </h4>
+          <h5 className={classes.description}>
+          ７月より、担当クラスの講師が産休に入るため、しばらくクラスを休講致します。クラス再開につきましては、改めてご連絡させて頂きます          
           </h5>
         </GridItem>
       </GridContainer>
-      <div>
-        <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Chat}
-              iconColor="info"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={VerifiedUser}
-              iconColor="success"
-              vertical
-            />
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-              icon={Fingerprint}
-              iconColor="danger"
-              vertical
-            />
-          </GridItem>
-        </GridContainer>
-      </div>
     </div>
   );
 }
