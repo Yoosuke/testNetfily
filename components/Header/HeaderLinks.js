@@ -58,7 +58,7 @@ export default function HeaderLinks(props) {
           target="_blank"
           className={classes.navLink}
         >
-          <LocalPhone className={classes.icons} /> お問い合わせ
+          <LocalPhone className={classes.icons} /> お問い合わせ 03-3978-7102
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
