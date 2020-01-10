@@ -1,0 +1,56 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!assets/scss/nextjs-material-kit.scss?v=1.0.0": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!assets/scss/nextjs-material-kit.scss?v=1.0.0 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/_app.js": 2,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/_error.js": 3,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/components.js": 4,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/index.js": 5,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/landing.js": 6,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/login.js": 7,
+      "static/FVxvhLxZb2qJROlooTovZ/pages/profile.js": 8,
+      "static/runtime/main.js": 9,
+      "styles": 10
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

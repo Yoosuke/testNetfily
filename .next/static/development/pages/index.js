@@ -8982,7 +8982,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!*******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fthewaggle%2FDocuments%2FGitHub%2FtestNetfily%2Fpages%2Findex.js ***!
   \*******************************************************************************************************************************************/
@@ -9005,5 +9005,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

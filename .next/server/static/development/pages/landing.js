@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -3097,7 +3097,7 @@ function HeaderLinks(props) {
       lineNumber: 61
     },
     __self: this
-  }), " \u304A\u554F\u3044\u5408\u308F\u305B")), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }), " \u304A\u554F\u3044\u5408\u308F\u305B 03-3978-7102")), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
     className: classes.listItem,
     __source: {
       fileName: _jsxFileName,
@@ -6054,7 +6054,7 @@ function LandingPage(props) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/landing.js ***!
   \********************************/

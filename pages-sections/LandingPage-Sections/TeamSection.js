@@ -16,9 +16,9 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.webp";
-import team2 from "assets/img/faces/christian.webp";
-import team3 from "assets/img/faces/kendall.webp";
+import team1 from "assets/img/faces/avatar.jpg";
+import team2 from "assets/img/faces/christian.jpg";
+import team3 from "assets/img/faces/kendall.jpg";
 
 const useStyles = makeStyles(styles);
 
